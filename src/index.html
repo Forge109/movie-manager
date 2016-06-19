@@ -1,9 +1,21 @@
 <!doctype html>
 <html>
 <head>
+  <base href="/">
   <meta charset="utf-8">
   <title>MovieManager</title>
-  <base href="/">
+  
+
+  <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+  <!-- 1. Load libraries -->
+    <script src="../node_modules/rxjs/bundles/Rx.js"></script>
+
+    <!-- Required for http -->
+    <script src="../node_modules/@angular/http/http.dev.js"></script>
+
+    <!-- Required for Routing -->
+    <script src="../node_modules/@angular/router/router.dev.js"></script>
 
   {{#unless environment.production}}
   <script src="/ember-cli-live-reload.js" type="text/javascript"></script>

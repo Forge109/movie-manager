@@ -1,0 +1,32 @@
+[
+    {
+        "movieId": 1,
+        "movieName": "Lord of the Rings: The Fellowship of the Ring",
+        "movieCode": "GDN-0011",
+        "releaseDate": "March 19, 2016",
+        "description": "Leaf rake with 48-inch wooden handle.",
+        "price": 19.95,
+        "starRating": 3.2,
+        "imageUrl": "images/LOTR Fellowship.jpg"
+    },
+    {
+        "movieId": 2,
+        "movieName": "Lord of the Rings: The Two Towers",
+        "movieCode": "GDN-0023",
+        "releaseDate": "March 18, 2016",
+        "description": "15 gallon capacity rolling garden cart",
+        "price": 32.99,
+        "starRating": 4.2,
+        "imageUrl": "images/LOTR The_two_towers.jpg"
+    },
+    {
+        "movieId": 5,
+        "movieName": "Lord of the Rings: The Return of the King",
+        "movieCode": "TBX-0048",
+        "releaseDate": "May 21, 2016",
+        "description": "Curved claw steel hammer",
+        "price": 8.9,
+        "starRating": 4.8,
+        "imageUrl": "images/LOTR return_of_the_king.jpg"
+    }
+]

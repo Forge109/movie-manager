@@ -16,8 +16,8 @@ describe('App: MovieManager', () => {
     expect(app).toBeTruthy();
   }));
 
-  it('should have as title \'app works!\'',
+  it('should have as title \'My Movie Manager\'',
       inject([AppComponent], (app: AppComponent) => {
-    expect(app.title).toEqual('app works!');
+    expect(app.title).toEqual('My Movie Manager');
   }));
 });
